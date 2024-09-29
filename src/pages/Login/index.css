@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.login {
+  width: 400px;
+  gap: 24px;
+  opacity: 0px;
+  margin-left: 500px;
+  margin-top: 200px;
+  box-shadow: 10px 7px 99px 66px rgba(214, 200, 200, 0.75);
+  padding: 20px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.inputp {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin-bottom: 8px;
+}
+.input {
+  margin-bottom: 16px;
+  width: 360px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 6px ;
+  border: 0.5px 0px 0px 0px;
+  opacity: 0px;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+background: #efe4e4;
+padding:8px;
+}
+.cheked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.me h4 {
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+color: #1A1A1A;
+}
+.cheked h3 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: right;
+    color: #007AFF;
+}
+.button {
+    width: 360px;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #007AFF;
+color: #ffff;
+cursor: pointer;
+transition: all 0.5s;
+border: none;
+margin-bottom: 64.5px;
+}
+.button:hover {
+    background: #0a2d52;
+    color: aliceblue;
+}
+
+.btn {
+    width: 360px;
+height:40px;
+padding: 10px 16px 10px 16px;
+gap: 0px;
+border-radius: 6px ;
+opacity: 0px;
+border: none;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+background-color:#333333 ;
+color: #FFFFFF;
+cursor: pointer;
+transition: all 0.5s;
+margin-bottom: 24px;
+}
+.btn:hover {
+    background-color:#595050 ;
+    color: #FFFFFF;
+}
+.dont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.dont h3 {
+   color: #007AFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: right;
+    margin-top: -20px;
+}
+.dont h2 {
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+
+}
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .show-password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
