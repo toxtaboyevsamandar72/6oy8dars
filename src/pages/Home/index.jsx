@@ -1,11 +1,12 @@
 import React from 'react'
-import './index.css'
-function Home() {
+import Card from '../../componets/Card'
+
+function index() {
   return (
     <div>
-        <h1>home</h1>
+      <Card/>
     </div>
   )
 }
 
-export default Home
+export default index
